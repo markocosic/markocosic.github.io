@@ -10,5 +10,5 @@ Sync-Config-7: rebootevent.enabled=true
 Sync-Config-8: storevalue.enabled=true
 Sync-Config-9: storevalue.cron=*/15 * * * *
 Sync-Config-10: common.device.mbus.searchmode=primary
-Sync-Config-11: set common.net.dns1=1.1.1.1
-Sync-Config-12: set common.net.dns1=8.8.8.8
+Sync-Config-11: common.net.dns1=1.1.1.1
+Sync-Config-12: common.net.dns2=8.8.8.8
