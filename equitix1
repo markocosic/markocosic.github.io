@@ -1,0 +1,12 @@
+Sync-Mode: server
+reboot.enabled=true
+reboot.cron=30 3 * * *
+common.time.mode=ntp
+common.time.ntp.server=uk.pool.ntp.org
+common.time.utcoffset=0
+common.product.culture.decimalseparator=.
+common.email.to=equitixelvaco@coheat.co.uk
+rebootevent.enabled=true
+storevalue.enabled=true
+storevalue.cron=*/15 * * * *
+common.device.mbus.searchmode=primary
