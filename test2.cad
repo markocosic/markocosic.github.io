@@ -1,4 +1,0 @@
-Sync-Mode: server
-reboot.enabled=true
-reboot.cron=30 3 * * *
-common.email.to=testelvaco@coheat.co.uk
