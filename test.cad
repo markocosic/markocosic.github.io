@@ -1,3 +1,0 @@
-Sync-Mode: server
-Sync-Config-0: reboot.enabled=true
-Sync-Config-1: reboot.cron=30 3 * * *
