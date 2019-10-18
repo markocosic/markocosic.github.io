@@ -1,12 +1,14 @@
 Sync-Mode: server
-reboot.enabled=true
-reboot.cron=30 3 * * *
-common.time.mode=ntp
-common.time.ntp.server=uk.pool.ntp.org
-common.time.utcoffset=0
-common.product.culture.decimalseparator=.
-common.email.to=equitixelvaco@coheat.co.uk
-rebootevent.enabled=true
-storevalue.enabled=true
-storevalue.cron=*/15 * * * *
-common.device.mbus.searchmode=primary
+Sync-Config-0: reboot.enabled=true
+Sync-Config-1: reboot.cron=30 3 * * *
+Sync-Config-2: common.time.mode=ntp
+Sync-Config-3: common.time.ntp.server=uk.pool.ntp.org
+Sync-Config-4: common.time.utcoffset=0
+Sync-Config-5: common.product.culture.decimalseparator=.
+Sync-Config-6: common.email.to=equitixelvaco@coheat.co.uk
+Sync-Config-7: rebootevent.enabled=true
+Sync-Config-8: storevalue.enabled=true
+Sync-Config-9: storevalue.cron=*/15 * * * *
+Sync-Config-10: common.device.mbus.searchmode=primary
+Sync-Config-11: set common.net.dns1=1.1.1.1
+Sync-Config-12: set common.net.dns1=8.8.8.8
