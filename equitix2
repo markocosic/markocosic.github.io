@@ -1,0 +1,24 @@
+Sync-Mode: server
+reboot.enabled=true
+reboot.cron=30 3 * * *
+common.time.mode=ntp
+common.time.ntp.server=uk.pool.ntp.org
+common.time.utcoffset=0
+common.product.culture.decimalseparator=.
+common.email.to=equitixelvaco@coheat.co.uk
+rebootevent.enabled=false
+storevalue.enabled=true
+storevalue.cron=*/15 * * * *
+common.device.mbus.searchmode=primary
+common.http.url=http://services.elvaco.se/metering2/services/post.aspx
+report1.enabled=true
+report1.email.enabled=false
+report1.ftp.enabled=false
+report1.http.enabled=true
+report1.http.template=3102
+report1.cron="20 1 * * *"
+report1.schedule.retrymax=9
+report1.schedule.retryoffset=1800
+report1.filter.value="* * * * *"
+report1.filter.mode=day
+report1.filter.param=1
