@@ -33,5 +33,5 @@ Sync-Config-30: report5.cron=20 0 * * *
 Sync-Config-31: report5.filter.value=* * * * *
 Sync-Config-32: report5.filter.mode=day
 Sync-Config-33: report5.filter.param=1
-Sync-Config-34: report5.http://api.dev.metermanager.daringlionrace.co.uk/integrations/elvaco/ccd14f5a-ecc2-4c0a-a66c-44d9c7d1e707
+Sync-Config-34: report5.http.url=http://api.dev.metermanager.daringlionrace.co.uk/integrations/elvaco/ccd14f5a-ecc2-4c0a-a66c-44d9c7d1e707
 Sync-Config-35: report5.http.authmode=basic
