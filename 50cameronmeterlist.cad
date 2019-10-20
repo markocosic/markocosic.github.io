@@ -1,0 +1,9 @@
+Sync-Mode: server
+Sync-Command-0: 3333;database device clear
+Sync-Command-1: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=02002561
+Sync-Command-2: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=17060095
+Sync-Command-3: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=24025137
+Sync-Command-4: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=46000443
+Sync-Command-5: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=46057374
+Sync-Command-6: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=46057397
+Sync-Command-7: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=46057504
