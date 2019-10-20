@@ -21,6 +21,13 @@ Sync-Config-18: report5.filter.value=* * * * *
 Sync-Config-19: report5.filter.mode=minute
 Sync-Config-20: report5.filter.param=9
 Sync-Config-21: report5.http.authmode=basic
-Sync-Config-22: report5.http://api.dev.metermanager.daringlionrace.co.uk/integrations/elvaco/ccd14f5a-ecc2-4c0a-a66c-44d9c7d1e707
+Sync-Config-22: report5.https://api.dev.metermanager.daringlionrace.co.uk/integrations/elvaco/6a880c7d-57d4-45e2-b736-e1c343a58824
 Sync-Config-23: report5.filter.lookuprecord.includelist=mbus.dib.energy.0.0.0.0,mbus.dib.volume.0.0.0.0,mbus.dib.flow-temp.0.0.0.0,mbus.dib.return-temp.0.0.0.0,mbus.dib.power.0.0.0.0,mbus.dib.volume-flow.0.0.0.0
 Sync-Config-24: report5.filter.lookuprecord.enabled=true
+Sync-Config-25: report1.enabled=false
+Sync-Config-26: report1.email.enabled=false
+Sync-Config-27: report1.ftp.enabled=false
+Sync-Config-28: report1.http.enabled=false
+Sync-Config-29: report5.http.user=df2b318c-9674-45ef-b753-fdbbf10953ca
+Sync-Config-30: report5.http.password=D7CnQ3Vmxw4VdsoYAaZ46Em3aQ9VHAf398XRfAFfJtI
+Sync-Config-31: report5.filter.device.includelist=00000001,00000002
