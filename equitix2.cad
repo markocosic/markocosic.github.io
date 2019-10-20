@@ -22,5 +22,5 @@ Sync-Config-19: report1.schedule.retryoffset=1800
 Sync-Config-20: report1.filter.value=* * * * *
 Sync-Config-21: report1.filter.mode=day
 Sync-Config-22: report1.filter.param=1
-Sync-Config-23: set common.net.dns1=1.1.1.1
-Sync-Config-24: set common.net.dns2=8.8.8.8
+Sync-Config-23: common.net.dns1=1.1.1.1
+Sync-Config-24: common.net.dns2=8.8.8.8
