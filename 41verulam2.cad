@@ -30,4 +30,4 @@ Sync-Config-27: report1.ftp.enabled=false
 Sync-Config-28: report1.http.enabled=false
 Sync-Config-29: report5.http.user=df2b318c-9674-45ef-b753-fdbbf10953ca
 Sync-Config-30: report5.http.password=D7CnQ3Vmxw4VdsoYAaZ46Em3aQ9VHAf398XRfAFfJtI
-Sync-Config-31: report5.filter.device.includelist=00000001,00000002
+Sync-Config-31: report5.filter.device.includelist=47871640,47871664
