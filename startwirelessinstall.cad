@@ -2,4 +2,4 @@ Sync-Mode: server
 Sync-Config-0: command1.enabled=true
 Sync-Config-1: command1.cron=*/30 * * * *
 Sync-Config-2: command1.file.description=start wireless install 1
-Sync-Config-3: command1.command=device 62002504 sndud device.command.userdata=017c0369637769637701
+Sync-Config-3: command1.command=device 62001800 sndud device.command.userdata=017c0369637769637701
