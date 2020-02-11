@@ -1,21 +1,2 @@
 Sync-Mode: server
 Sync-Config-0: common.time.ntp.server=uk.pool.ntp.org
-Sync-Config-1: common.time.mode=ntp
-Sync-Config-2: common.time.utcoffset=0
-Sync-Config-3: common.product.culture.decimalseparator=.
-Sync-Config-4: common.email.timeout=600
-Sync-Config-5: reboot.enabled=true
-Sync-Config-6: reboot.cron=11 55 * * *
-Sync-Config-7: storevalue.enabled=true
-Sync-Config-8: storevalue.cron=*/30 * * * *
-Sync-Config-9: report5.enabled=true
-Sync-Config-10: report5.email.enabled=true
-Sync-Config-11: report5.email.to=gingermetering+orleanselectricity@gmail.com
-Sync-Config-12: report5.email.template=1112
-Sync-Config-13: report5.cron=12 15 * * *
-Sync-Config-14: report5.filter.value=* * * * *
-Sync-Config-15: report5.filter.mode=minute
-Sync-Config-16: report5.filter.param=1440
-Sync-Config-17: report5.filter.lookuprecord.includelist=mbus.dib.energy.0.0.0.0
-Sync-Config-18: report5.filter.lookuprecord.enabled=true
-Sync-Config-19: report5.filter.device.includelist=00281302,00281304,00280902,00280901,00281601,00281402,00280903,00280904,00281002,00281001,00281003,00281004,00281202,00281201,00282402,00282401,00282403,00282404,00281203,00281204,00281301,00281802,00281801,00281803,00281602,00282002,00282001,00282304,00281804,00282003,00282004,00281904,00281502,00281501,00281503,00281504,00282102,00282101,00282202,00282201,00281902,00281901,00281903,00282203,00282204,00281303,00280804,00280803,00281603,00280802,00280801,00281702,00281701,00281703,00281704,00282302,00282301,00282303,00281404,00281403,00282103,00282104,00282502,00282501,00282503,00282504,00281102,00281101,00281103,00281104,00281604,00281401
