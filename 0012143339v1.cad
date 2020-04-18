@@ -22,3 +22,7 @@ Sync-Config-19: report1.http.user=517c5d87-5298-456b-bf86-715d0691fec5
 Sync-Config-20: report1.http.password=VTHP5nLbkhyh-_gV72Tnui__EBU_Y7x-f9Ei9mIk1Cc
 Sync-Config-21: report1.filter.lookuprecord.enabled=false
 Sync-Config-22: report1.filter.lookuprecord.includelist=mbus.dib.energy.0.0.0.0,mbus.dib.volume.0.0.0.0,mbus.dib.flow-temp.0.0.0.0,mbus.dib.return-temp.0.0.0.0,mbus.dib.power.0.0.0.0,mbus.dib.volume-flow.0.0.0.0
+Sync-Config-23: common.http.url=http://api2100.staging.daringlionrace.co.uk/integrations/elvaco/73a80bfb-b29b-447f-adc3-b75f29064060
+Sync-Config-24: common.http.authmode=basic
+Sync-Config-25: common.http.user=517c5d87-5298-456b-bf86-715d0691fec5
+Sync-Config-26: common.http.password=VTHP5nLbkhyh-_gV72Tnui__EBU_Y7x-f9Ei9mIk1Cc
