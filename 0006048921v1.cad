@@ -1,0 +1,36 @@
+Sync-Mode: server
+Sync-Config-0: common.time.mode=ntp
+Sync-Config-1: common.time.ntp.server=uk.pool.ntp.org
+Sync-Config-2: common.time.utcoffset=0
+Sync-Config-3: common.net.dns1=1.1.1.1
+Sync-Config-4: common.net.dns2=8.8.8.8
+Sync-Config-5: common.product.culture.decimalseparator=.
+Sync-Config-6: common.email.to=41verulamelvaco@coheat.co.uk
+Sync-Config-7: storevalue.enabled=true
+Sync-Config-8: storevalue.cron=* * * * *
+Sync-Config-9: report1.enabled=true
+Sync-Config-10: report1.email.enabled=false
+Sync-Config-11: report1.ftp.enabled=false
+Sync-Config-12: report1.http.enabled=true
+Sync-Config-13: report1.cron=*/30 * * * *
+Sync-Config-14: report1.filter.value=*/5 * * * *
+Sync-Config-15: report1.filter.mode=minute
+Sync-Config-16: report1.filter.param=29
+Sync-Config-17: report1.filter.lookuprecord.enabled=false
+Sync-Config-18: report1.filter.lookuprecord.includelist=mbus.dib.energy.0.0.0.0,mbus.dib.volume.0.0.0.0,mbus.dib.flow-temp.0.0.0.0,mbus.dib.return-temp.0.0.0.0,mbus.dib.power.0.0.0.0,mbus.dib.volume-flow.0.0.0.0
+Sync-Config-19: common.monitor.enabled=true
+Sync-Config-20: monitor.cron=* * * * *
+Sync-Config-21: monitor.enabled=true
+Sync-Config-22: monitor1.enabled=true
+Sync-Config-23: monitor1.expression=$mbus.dib.power>1000
+Sync-Config-24: monitor1.filter.device.includelist=47871640
+Sync-Config-25: monitor1.reset.command=Device 02003384 sndud device.command.userdata=01FD1A80
+Sync-Config-26: monitor1.reset.delay=0
+Sync-Config-27: monitor1.reset.info=Hot water less than 1kW
+Sync-Config-28: monitor1.set.command=Device 02003384 sndud device.command.userdata=01FD1A40
+Sync-Config-29: monitor1.set.delay=0
+Sync-Config-30: monitor1.set.info=Hot water more than 1kW
+Sync-Config-31: common.http.authmode=basic
+Sync-Config-32: common.http.url=http://api2100.staging.daringlionrace.co.uk/integrations/elvaco/73a80bfb-b29b-447f-adc3-b75f29064060
+Sync-Config-33: common.http.user=f48f0ef5-427b-418a-9cda-d0911aa36d3e
+Sync-Config-34: common.http.password=esZNk8ULCUdhICqJXc-VoAbijx1jtBMG8VIeAqK5mYo
