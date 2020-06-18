@@ -1,0 +1,4 @@
+Sync-Mode: server
+Sync-Config-0: common.time.mode=ntp
+Sync-Config-1: common.time.ntp.server=uk.pool.ntp.org
+Sync-Config-2: common.time.utcoffset=0
