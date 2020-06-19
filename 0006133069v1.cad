@@ -31,6 +31,6 @@ Sync-Config-28: monitor1.set.command=Device 02002561 sndud device.command.userda
 Sync-Config-29: monitor1.set.delay=0
 Sync-Config-30: monitor1.set.info=Hot water more than 1kW
 Sync-Config-31: common.http.authmode=basic
-Sync-Config-32: common.http.url=http://api.staging.daringlionrace.co.uk/integrations/elvaco/50-cameron-road
+Sync-Config-32: common.http.url=http://api2100.staging.daringlionrace.co.uk/integrations/elvaco/50-cameron-road
 Sync-Config-33: common.http.user=70bf2991-aba7-4275-91c7-82ec6c972aed
 Sync-Config-34: common.http.password=08wJGr0ugv5JnWsS-Znf4g955VPRgTyj-7z-5sMRBEo
