@@ -34,3 +34,4 @@ Sync-Config-31: common.http.authmode=basic
 Sync-Config-32: common.http.url=http://api2100.staging.daringlionrace.co.uk/integrations/elvaco/50-cameron-road
 Sync-Config-33: common.http.user=70bf2991-aba7-4275-91c7-82ec6c972aed
 Sync-Config-34: common.http.password=08wJGr0ugv5JnWsS-Znf4g955VPRgTyj-7z-5sMRBEo
+Sync-Config-35: report1.http.template=3112
