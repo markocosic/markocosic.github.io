@@ -1,0 +1,10 @@
+Sync-Mode: server
+Sync-Config-0: common.time.mode=ntp
+Sync-Config-1: common.time.ntp.server=uk.pool.ntp.org
+Sync-Config-2: common.time.utcoffset=0
+Sync-Config-3: common.net.dns1=1.1.1.1
+Sync-Config-4: common.net.dns2=8.8.8.8
+Sync-Config-5: common.product.culture.decimalseparator=.
+Sync-Config-6: common.email.to=haslarelvaco@coheat.co.uk
+Sync-Config-7: storevalue.enabled=true
+Sync-Config-8: storevalue.cron=*/5 * * * *
