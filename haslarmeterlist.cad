@@ -1,6 +1,6 @@
 Sync-Command-0: 3333;database device clear
 Sync-Command-1: 3333;database device add addressingmode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=64004759
-Sync-Command-2: 3333;database device add addressingmode=esecondary primaryaddress=0 Baudrate=2400 SecondaryAddress=64004759 fabricationnumber=78581
+Sync-Command-2: 3333;database device add addressingmode=esecondary primaryaddress=0 Baudrate=2400 SecondaryAddress=64004759 enhancedaddress=78581
 Sync-Command-3: 3333;database device add addressingmode=esecondary primaryaddress=0 Baudrate=2400 SecondaryAddress=64004759 fabricationnumber=78245
 Sync-Command-4: 3333;database device add addressingmode=esecondary primaryaddress=0 Baudrate=2400 SecondaryAddress=64004759 fabricationnumber=79068
 Sync-Command-5: 3333;database device add addressingmode=esecondary primaryaddress=0 Baudrate=2400 SecondaryAddress=64004759 fabricationnumber=78576
