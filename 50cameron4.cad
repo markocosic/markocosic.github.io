@@ -1,0 +1,44 @@
+Sync-Mode: server
+Sync-Config-0: reboot.enabled=true
+Sync-Config-1: reboot.cron=30 3 * * *
+Sync-Config-2: common.time.mode=ntp
+Sync-Config-3: common.time.ntp.server=uk.pool.ntp.org
+Sync-Config-4: common.time.utcoffset=0
+Sync-Config-5: common.net.dns1=1.1.1.1
+Sync-Config-6: common.net.dns2=8.8.8.8
+Sync-Config-7: common.product.culture.decimalseparator=.
+Sync-Config-8: common.email.to=50cameronelvaco@coheat.co.uk
+Sync-Config-9: common.http.url=http://api2100.staging.daringlionrace.co.uk/integrations/elvaco/50-cameron-road
+Sync-Config-10: common.http.authmode=basic
+Sync-Config-11: common.http.user=70bf2991-aba7-4275-91c7-82ec6c972aed
+Sync-Config-12: common.http.password=08wJGr0ugv5JnWsS-Znf4g955VPRgTyj-7z-5sMRBEo
+Sync-Config-13: rebootevent.enabled=false
+Sync-Config-14: storevalue.enabled=true
+Sync-Config-15: storevalue.cron=* * * * *
+Sync-Config-16: report5.enabled=true
+Sync-Config-17: report5.email.enabled=false
+Sync-Config-18: report5.ftp.enabled=false
+Sync-Config-19: report5.http.enabled=true
+Sync-Config-20: report5.http.template=3112
+Sync-Config-21: report5.cron=*/10 * * * *
+Sync-Config-22: report5.filter.value=*/5 * * * *
+Sync-Config-23: report5.filter.mode=minute
+Sync-Config-24: report5.filter.param=9
+Sync-Config-25: report5.filter.lookuprecord.includelist=
+Sync-Config-26: report5.filter.lookuprecord.enabled=false
+Sync-Config-27: report1.enabled=false
+Sync-Config-28: report1.email.enabled=false
+Sync-Config-29: report1.ftp.enabled=false
+Sync-Config-30: report1.http.enabled=false
+Sync-Config-31: common.monitor.enabled=true
+Sync-Config-32: monitor.cron=* * * * *
+Sync-Config-33: monitor.enabled=true
+Sync-Config-34: monitor1.enabled=true
+Sync-Config-35: monitor1.expression=$mbus.dib.power>1000
+Sync-Config-36: monitor1.filter.device.includelist=46000443
+Sync-Config-37: monitor1.reset.command=Device 02002561 sndud device.command.userdata=01FD1A80
+Sync-Config-38: monitor1.reset.delay=0
+Sync-Config-39: monitor1.reset.info=Hot water less than 1kW
+Sync-Config-40: monitor1.set.command=Device 02002561 sndud device.command.userdata=01FD1A40
+Sync-Config-41: monitor1.set.delay=0
+Sync-Config-42: monitor1.set.info=Hot water more than 1kW
