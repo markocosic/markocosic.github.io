@@ -11,3 +11,4 @@ Sync-Command-8: 3333;database device add AddressingMode=secondary primaryaddress
 Sync-Command-9: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=47871664
 Sync-Command-10: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=54009495
 Sync-Command-11: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=54012069
+Sync-Command-11: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=40193971
