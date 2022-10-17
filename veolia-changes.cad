@@ -1,0 +1,15 @@
+Sync-Mode: server
+Sync-Command-0: set storevalue.cron=*/5 * * * *
+Sync-Command-1: set report1.filter.value=*/30 * * * 
+Sync-Command-2: set report1.cron=13 3 * * *
+Sync-Command-3: set reboot.cron=53 4 * * *
+Sync-Command-4: set report5.cron=*/5 * * * *
+Sync-Command-5: set report5.filter.value=* * * * *
+Sync-Command-6: set report5.filter.mode=minute
+Sync-Command-7: set report5.filter.param=5
+Sync-Command-8: set report5.filter.lookuprecord.includelist=mbus.dib.energy.0.0.0.0,mbus.dib.volume.0.0.0.0,mbus.dib.flow-temp.0.0.0.0,mbus.dib.return-temp.0.0.0.0,mbus.dib.power.0.0.0.0,mbus.dib.volume-flow.0.0.0.0
+Sync-Command-9: set report5.filter.lookuprecord.enabled=true
+Sync-Command-10: set report5.http.template=3110
+Sync-Command-11: set report5.http.authmode=basic
+Sync-Command-12: set report5.http.url=http://api2100.meterpoint.io/intgrations/elvaco/veolia-sheffield
+Sync-Command-13: set report5.enabled=true
