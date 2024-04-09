@@ -1,5 +1,3 @@
 Sync-Mode: server
-Sync-Command-0: database device clear
-Sync-Command-1: database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=12345678
-Sync-Command-2: 3333;database device clear
-Sync-Command-3: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=12345678
+Sync-Command-0: 3333;database device clear
+Sync-Command-2: 3333;database device add AddressingMode=secondary primaryaddress=0 Baudrate=2400 SecondaryAddress=87654321
