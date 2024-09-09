@@ -1,5 +1,2 @@
 Sync-Mode: server
-Sync-Config-0: report2.enabled=true
-Sync-Config-1: report2.cron=28 10 9 9 *
-Sync-Config-2: report2.email.enabled=true
-Sync-Config-3: report2.email.template=1003
+Sync-Command-0: get common.*
