@@ -1,3 +1,3 @@
 Sync-Mode: server
 Sync-Config-0: common.time.ntp.server=uk.pool.ntp.org
-Sync-Config-1: 3333; sysreport
+Sync-Config-1: sysreport
