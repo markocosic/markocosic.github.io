@@ -27,3 +27,5 @@ Sync-Command-24: set report4.enabled=true
 Sync-Command-25: set report4.http.enabled=true
 Sync-Command-26: set report4.email.enabled=false
 Sync-Command-27: set report4.ftp.enabled=false
+Sync-Command-28: set common.net.dns1=1.1.1.1
+Sync-Command-29: set common.net.dns2=8.8.8.8
