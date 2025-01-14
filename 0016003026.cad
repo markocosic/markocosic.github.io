@@ -1,2 +1,2 @@
 Sync-Mode: server
-Sync-Command-0: 3333;set storevalue.cron=*/30 * * * *
+Sync-Command-0: 3333;set storevalue.cron="*/30 * * * *"
