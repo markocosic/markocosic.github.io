@@ -1,2 +1,2 @@
 Sync-Mode: server
-Sync-Config-0: storevalue.cron=*/5 * * * *
+Sync-Config-0: storevalue.cron=*/30 * * * *
