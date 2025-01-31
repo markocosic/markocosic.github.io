@@ -1,3 +1,1 @@
 Sync-Mode: server
-Sync-Config-0: storevalue.cron=*/30 * * * *
-Sync-Command-0: 3333;sysreport
